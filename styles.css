@@ -34,8 +34,7 @@ main {
 
 .note {
 	min-height: 150px;
-	min-width: 150px;
-	max-width: 80%;
+	width: 80%;
 	margin: 1rem auto;
 	border: 2px solid orange;
 	background-color: lightblue;
@@ -50,10 +49,16 @@ main {
 	margin: 0.5rem;
 }
 
+.note-text {
+	margin: 1rem;
+}
+
 textarea {
 	min-height: 2rem;
 	min-width: 50%;
+	width: 80%;
 	max-width: 100%;
+	margin: 1rem auto;
 }
 
 .hidden {
