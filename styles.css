@@ -4,7 +4,7 @@
 /* variables */
 :root {
 	--primary: #2a9d8f;
-	--secondary: #e9c46a;
+	--secondary: #b6feff;
 	--radius: 0.5rem;
 }
 
@@ -56,7 +56,7 @@ main {
 	width: 80%;
 	margin: 1rem auto;
 	background-color: var(--secondary);
-	border: 3px solid var(--primary);
+	border: 4px solid var(--primary);
 	border-radius: var(--radius);
 	overflow: clip;
 }
@@ -78,9 +78,17 @@ main {
 textarea {
 	min-height: 2rem;
 	min-width: 50%;
-	width: 80%;
+	width: 100%;
 	max-width: 100%;
 	margin: 1rem auto;
+	padding: 0.5rem;
+	font-size: 16px;
+	border: 2px solid var(--primary);
+	border-radius: var(--radius);
+}
+
+textarea:focus {
+	outline: 1px solid var(--primary);
 }
 
 .hidden {

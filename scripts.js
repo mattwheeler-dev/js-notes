@@ -21,7 +21,7 @@ const addNote = (text = "") => {
 		<p class="note-text">
 			${text ? `${text}` : "New Note"}
 		</p>
-		<textarea class="note-edit hidden"></textarea>
+		<textarea class="hidden"></textarea>
         `;
 
 	const editBtn = note.querySelector(".edit-btn");
